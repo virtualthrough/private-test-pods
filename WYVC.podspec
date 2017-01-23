@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "WYVC"                #名称
-s.version      = "0.0.2"                #版本号
+s.version      = "0.1.1"                #版本号
 s.summary      = "Just testing"        #简短介绍
 s.description  = <<-DESC
 私有Pods测试
@@ -12,7 +12,7 @@ s.homepage     = "http://aotu.io/"
 s.license      = "MIT"                #开源协议
 s.author       = { "linyi31" => "linyi@jd.com" }
 
-s.source       = { :git => "https://github.com/virtualthrough/private-test-pods.git" ,:tag => '0.0.2' }
+s.source       = { :git => "https://github.com/virtualthrough/private-test-pods.git" ,:tag => '0.0.4' }
 ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
 ## 正常情况下我们会使用稳定的tag版本来访问，如果是在开发测试的时候，不需要发布release版本，直接指向git地址使用
 ## 待测试通过完成后我们再发布指定release版本，使用如下方式
